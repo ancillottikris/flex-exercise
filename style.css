@@ -7,6 +7,14 @@ html, body {
  YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
 @media(min-width: 681px) {
+    .flex {
+        display: flex;
+    }
+
+    .flex img {
+        flex: 1 1 auto;
+    }
+
     /* Any adjustments for tablets and larger go here.
    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
